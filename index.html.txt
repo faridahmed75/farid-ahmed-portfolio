@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOC Manager | Sheba Platform Limited</title>
+  <meta name="description" content="SOC Manager managing centralized System Operations for 5 business units at Sheba Platform Limited. Expertise in monitoring, incident management, automation, compliance, and platform reliability." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    body { margin:0; font-family: 'Inter', sans-serif; background:#0b0f1a; color:#e5e7eb; line-height:1.6; }
+    header { background:#0f172a; padding:20px 40px; display:flex; justify-content:space-between; align-items:center; position:sticky; top:0; }
+    header h1 { font-size:20px; margin:0; }
+    nav a { color:#cbd5f5; margin-left:20px; text-decoration:none; font-size:14px; }
+    nav a:hover { color:#38bdf8; }
+
+    section { padding:80px 40px; max-width:1100px; margin:auto; }
+    .hero h2 { font-size:42px; margin-bottom:10px; }
+    .hero p { font-size:18px; color:#94a3b8; max-width:700px; }
+
+    .grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap:24px; }
+    .card { background:#111827; padding:24px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,.3); transition: transform .3s ease, box-shadow .3s ease; }
+    .card:hover { transform: translateY(-8px) scale(1.02); box-shadow:0 20px 40px rgba(0,0,0,.5); }
+    .card h3 { margin-top:0; color:#38bdf8; }
+
+    .stats { display:flex; gap:30px; flex-wrap:wrap; }
+    .stat { font-size:28px; font-weight:700; }
+    .stat span { display:block; font-size:14px; color:#94a3b8; }
+
+    .contact-item { display:flex; align-items:center; gap:12px; font-size:16px; color:#cbd5f5; }
+    .contact-item a { color:#38bdf8; text-decoration:none; display:inline-flex; align-items:center; gap:8px; transition: transform .3s ease, box-shadow .3s ease, color .3s ease; }
+    .contact-item i { font-size:22px; }
+    .contact-item a:hover { transform: translateY(-4px); color:#7dd3fc; text-shadow:0 0 12px rgba(56,189,248,.8); }
+
+    footer { background:#020617; padding:40px; text-align:center; font-size:14px; color:#64748b; }
+  
+    /* Responsive Styles */
+    @media (max-width: 1024px) {
+      section { padding: 60px 24px; }
+      .hero h2 { font-size: 34px; }
+    }
+
+    @media (max-width: 768px) {
+      header { padding: 16px 20px; flex-wrap: wrap; }
+      nav { width: 100%; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 12px; }
+      nav a { margin: 8px 12px; font-size: 13px; }
+
+      .hero { grid-template-columns: 1fr !important; text-align: center; }
+      .hero img { margin: 0 auto; }
+      .stats { justify-content: center; }
+      .stat { font-size: 22px; }
+
+      section { padding: 48px 20px; }
+      h2 { font-size: 26px; }
+    }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 18px; }
+      .hero h2 { font-size: 28px; }
+      .hero p { font-size: 16px; }
+
+      .card { padding: 18px; }
+      footer { padding: 24px 16px; }
+
+      .contact-item { font-size: 14px; }
+      .contact-item i { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Farid Ahmed</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" style="display:grid;grid-template-columns:1fr 320px;gap:40px;align-items:center;">
+  <div>
+    <h2>Strategic Operations & Project Manager</h2>
+    <p>Leading centralized SOC operations across 5 business units at Sheba Platform Limited — ensuring platform reliability, fraud prevention, automation, and operational excellence.</p>
+    <div class="stats">
+      <div class="stat">99.95%<span>Platform Uptime</span></div>
+      <div class="stat">70%<span>SLA Resolution</span></div>
+      <div class="stat">5<span>Business Units</span></div>
+      <div class="stat">19+<span>Team Members Led</span></div>
+    </div>
+    </div>
+  </div>
+  <div>
+    <img src="https://i.postimg.cc/3JVg7jcM/Farid-Ahmed.png" alt="Farid Ahmed" style="width:100%;max-width:320px;border-radius:16px;box-shadow:0 20px 40px rgba(0,0,0,.5);" />
+  </div>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Strategic Project Manager with 4+ years leading high-impact, cross-functional initiatives across fintech, SaaS, operations, and enterprise platforms. Experienced in solving unstructured problems, building systems and processes from scratch, and executing mission-critical projects directly aligned with business leadership. Skilled in breaking down complex challenges, driving alignment across teams without formal authority, and delivering measurable outcomes in fast-moving, ambiguous environments.</p>
+</section>
+
+<section id="experience">
+  <h2>Professional Experience</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Lead, System Operations Center (SOC)</h3>
+      <p><strong>Sheba Platform Limited</strong> | Jul 2024 – Present</p>
+      <ul>
+        <li>Reporting to Director, Product & Technology; leading centralized SOC across 5 business units.</li>
+        <li>Managing 15 System Engineers, Network Engineer, Project Manager & Service Management Officers.</li>
+        <li>Ensured ≥99.95% platform uptime through proactive monitoring, RCA, and SLA governance.</li>
+        <li>Automated STR/SAR, KYC, transaction monitoring & incident reporting for Sheba Pay.</li>
+        <li>Led PSP/MFS/Bank integrations including SSLCOMMERZ, EkPay, Nagad, Paystation & MTB.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Executive, Critical Project Resource (CPR)</h3>
+      <p><strong>Sheba Platform Limited</strong> | Apr 2024 – Jun 2024</p>
+      <ul>
+        <li>Improved First Call Resolution from 47% to 70% within SLA.</li>
+        <li>Stabilized dialer systems and coordinated vendor upgrades and troubleshooting.</li>
+        <li>Conducted QA audits, agent performance analysis, and technical training.</li>
+        <li>Supported risk, fraud monitoring, and compliance reporting automation.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Project Director & Web Developer</h3>
+      <p><strong>IT Valley BD</strong> | Feb 2023 – Mar 2024</p>
+      <ul>
+        <li>Led end-to-end digital and SaaS project delivery reporting directly to the CEO.</li>
+        <li>Translated ambiguous business requirements into structured execution plans.</li>
+        <li>Managed cross-functional design, engineering, QA, budget, and delivery timelines.</li>
+        <li>Supported revenue growth through client engagement and solution design.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Project Manager</h3>
+      <p><strong>Fixway IT</strong> | Mar 2021 – Feb 2023</p>
+      <ul>
+        <li>Managed web and digital projects across design, development, and QA teams.</li>
+        <li>Built scalable workflows, documentation standards, and delivery processes.</li>
+        <li>Improved subscription models and key account management operations.</li>
+        <li>Handled risks, dependencies, and shifting priorities in fast-paced environments.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Key Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Sheba Pulse</h3>
+      <p>Internal ticketing & workflow management platform adopted by 20+ teams and 350+ employees.</p>
+      <ul>
+        <li>Improved cross-team efficiency by ~65%</li>
+        <li>Centralized SLA tracking and reporting</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>gPlex Ticketing System</h3>
+      <p>Re-engineered ticket workflows to improve prioritization, escalation, and SLA compliance.</p>
+      <ul>
+        <li>Reduced resolution delays</li>
+        <li>Improved operational transparency</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>AI Agent & REVE Chat Integration</h3>
+      <p>End-to-end implementation of AI-driven chat automation for internal and customer support.</p>
+      <ul>
+        <li>Reduced manual workload by ~40%</li>
+        <li>Improved response consistency</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Sheba Bondhu & Sheba Home</h3>
+      <p>Field operations, sales collection, and digital service delivery platforms.</p>
+      <ul>
+        <li>Aligned processes with business roadmap</li>
+        <li>Improved operational control & reporting</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">Incident & RCA Management</div>
+    <div class="card">SOC Reporting & SLA</div>
+    <div class="card">Fraud & AML Operations</div>
+    <div class="card">Vendor & Stakeholder Management</div>
+    <div class="card">Project & Process Management</div>
+    <div class="card">Automation & Monitoring Tools</div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications & Training</h2>
+  <div class="grid">
+    <div class="card">Generative AI Overview for Project Managers | Project Management Institute</div>
+    <div class="card">ISO 31000 & Gen AI – Transforming Risk & Compliance | GSDC</div>
+    <div class="card">ISO 31000 Risk Management Standard Course | Udemy</div>
+    <div class="card">Professional Diploma in Agile and Scrum | Udemy</div>
+    <div class="card">Active Citizens: Youth Leadership Training | British Council</div>
+    <div class="card">Web Development with Laravel and Python | ICT Division (EDGE)</div>
+    <div class="card">Data Science | Data Solution 360</div>
+    <div class="card">Rotary Youth Leadership Training | Rotary International District 3281</div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>Testimonials</h2>
+  <div class="grid">
+    <div class="card">
+      <p>“I highly recommend Farid Ahmed for his exceptional capabilities in technology operations, system reliability, and strategic execution. As SOC Lead at Sheba Platform Ltd, Farid consistently demonstrates strong leadership in managing complex operational environments, driving process automation, and guiding technical teams to deliver reliable, high-performance solutions. His analytical mindset and commitment to operational excellence make him an invaluable asset to any organization seeking strong governance, resilient systems, and a forward-thinking operations leader.”</p>
+      <strong>— Nesar Ahmed Julius</strong><br/>
+      <span>HR Strategist & Mentor</span>
+    </div>
+    <div class="card">
+      <p>“Farid is a hardworking and reliable operations professional. He is disciplined, committed to his responsibilities, and consistently ensures tasks are completed accurately and on time. His dedication and strong work ethic make him a valuable asset to any operations team.”</p>
+      <strong>— Ainun Nishat MISHU</strong><br/>
+      <span>VP & Head of Enterprise Business, Sheba Platform Limited</span>
+    </div>
+    <div class="card">
+      <p>“It was a pleasure working with you on the Sheba business project. Although you didn't report to me directly, I was consistently impressed by your contributions from the System Operations Center (SOC) team. Your skills in system analysis, incident reporting, and stakeholder management were a great help. I highly recommend you for your technical expertise, leadership, and commitment to continuous improvement.”</p>
+      <strong>— G.R. Fahad Uddin</strong><br/>
+      <span>Business Development Manager, Brain Station 23</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <div style="display:flex;flex-direction:column;gap:16px;max-width:520px;">
+    <div class="contact-item">
+      <a href="mailto:faridahmed75bd@gmail.com" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+        <span>faridahmed75bd@gmail.com</span>
+      </a>
+    </div>
+    <div class="contact-item">
+      <a href="tel:+8801759433577" title="Phone">
+        <i class="fa-solid fa-phone"></i>
+        <span>+880 1759 433577</span>
+      </a>
+    </div>
+    <div class="contact-item">
+      <a href="https://wa.me/qr/PN3ZPRDEYVODA1" target="_blank" title="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>WhatsApp Chat</span>
+      </a>
+    </div>
+    <div class="contact-item">
+      <a href="https://www.linkedin.com/in/farid-ahmed-net/" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>linkedin.com/in/farid-ahmed-net</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Copyright © 2026 Farid Ahmed
+</footer>
+
+</body>
+</html>
